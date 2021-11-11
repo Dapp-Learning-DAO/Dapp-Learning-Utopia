@@ -1,0 +1,38 @@
+- title: "Basic Task"
+  catetory: "Tutorial"
+  url: "https://github.com/rebase-network/Dapp-Learning/blob/main/README-en.md#basic-tasks"
+  preview: "https://github.com/rebase-network/Dapp-Learning/tree/main/basic"
+  description: "Understand the basic tools and development knowledge of developing DAPP through the following basic tasks."
+  image: "./emma.png"
+  shapes:
+    - type: "circle"
+      color: "green"
+      size: ["200px", "300px"]
+      xOffset: ["-140px"]
+      yOffset: ["-70px"]
+      opacity: 0.5
+    - type: "donut"
+      color: "teal"
+      size: ["25px", "100px"]
+      xOffset: ["50px"]
+      yOffset: ["-60px"]
+      opacity: 1
+- title: "Advanced Task"
+  catetory: "Tutorial"
+  url: "https://github.com/rebase-network/Dapp-Learning/blob/main/README-en.md#advanced-task"
+  preview: "https://github.com/rebase-network/Dapp-Learning/blob/main/README-en.md#advanced-task"
+  description: "This section is recommended as a submodule introduction. Get close to DeFi, NFT, DAO, CRYPTO projects. "
+  image: "./status-dashboard.png"
+  shapes:
+    - type: "circle"
+      color: "orange"
+      size: ["120px", "220px"]
+      xOffset: ["-20px"]
+      yOffset: ["100px", "180px"]
+      opacity: 1
+    - type: "circle"
+      color: "gray"
+      size: ["50px", "100px"]
+      xOffset: ["-40px"]
+      yOffset: ["-60px"]
+      opacity: 1
