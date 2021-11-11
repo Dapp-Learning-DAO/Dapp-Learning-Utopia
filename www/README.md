@@ -21,8 +21,9 @@ GITHUB_TOKEN=xxxxxx
 yarn develop
 ```
 
-### build
+### serve
 
 ```sh
 yarn build
+yarn serve
 ```
