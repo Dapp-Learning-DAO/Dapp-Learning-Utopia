@@ -4,14 +4,15 @@ const thoughtsFeed = require(`./src/utils/feed`)
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
 const githubToken = process.env.GITHUB_TOKEN
+const intro = "We are designed for junior developers to step into blockchain DAPP development.  Here, they can get close to DeFi, NFT, DAO, CRYPTO projects."
 
 module.exports = {
   siteMetadata: {
     title: `Dapp-Learning`,
     titleAlt: `Free & Open Source Dapp-Learning`,
     siteUrl: `https://dapp-learning.com`,
-    description: `designed for developers with basic skills to step into blockchain DAPP development, where they can get close to DeFi, NFT, DAO, CRYPTO projects.`,
-    headline: `designed for developers with basic skills to step into blockchain DAPP development.`,
+    description: intro,
+    headline: intro,
     language: `en`,
     image: `/data/dapp-learning-cover.png`,
     author: `@Dapp-Learning`,
@@ -102,7 +103,7 @@ module.exports = {
       options: {
         name: `Dapp-Learning`,
         short_name: `DappLearning`,
-        description: `designed for developers with basic skills to step into blockchain DAPP development, where they can get close to DeFi, NFT, DAO, CRYPTO projects.`,
+        description: intro,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#81a8f8`,

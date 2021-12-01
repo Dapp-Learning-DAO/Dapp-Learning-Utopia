@@ -2,7 +2,7 @@
   category: "Tutorial"
   url: "https://github.com/rebase-network/Dapp-Learning"
   preview: "https://github.com/rebase-network/Dapp-Learning"
-  description: "We are designed for developers with basic skills to step into blockchain DAPP development, where they can get close to DeFi, NFT, DAO, CRYPTO projects."
+  description: "We are designed for junior developers to step into blockchain DAPP development. Here, they can get close to DeFi, NFT, DAO, CRYPTO projects."
   image: "./dapp-learning-cover.png"
   shapes:
     - type: "circle"
@@ -21,7 +21,7 @@
   category: "Tutorial"
   url: "https://mirror.xyz/0x0C3c4bB7554Ea7E891B604715F84C5B55EFc017d"
   preview: "https://mirror.xyz/0x0C3c4bB7554Ea7E891B604715F84C5B55EFc017d"
-  description: "We will compile some crypto courses from top universities abroad and the Ethereum community to help developers systematically understand blockchain and cryptocurrencies."
+  description: "We will compile some crypto courses from top universities and the Ethereum community to help developers systematically understand blockchain and cryptocurrency."
   image: "./translation-icon.png"
   shapes:
     - type: "circle"
@@ -57,10 +57,10 @@
       opacity: 1
 - title: "Sharing Meetups"
   category: "video"
-  url: "https://www.youtube.com/embed/ypASWR5b9zA"
+  url: "https://www.youtube.com/channel/UCdJKZVxO55N3n2BQYXMDAcQ"
   preview: "https://www.youtube.com/embed/ypASWR5b9zA"
-  description: "The weekly sharing meetups will be recorded and uploaded to the Youtube."
-  image: "https://www.youtube.com/embed/ypASWR5b9zA"
+  description: "The weekly sharing meetup minutes will be uploaded to the Youtube."
+  image: "https://www.youtube.com/channel/UCdJKZVxO55N3n2BQYXMDAcQ"
   shapes:
     - type: "circle"
       color: "red"

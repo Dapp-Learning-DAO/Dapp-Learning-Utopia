@@ -159,7 +159,7 @@ const Listing = (props: { list: nodeType[] }) => {
                     },
                   }}
                 >
-                  {theme.url && <Video src={theme.url} />}
+                  {theme.url && <Video src={theme.preview} />}
                 </Box>
               ) : (
                 <a
