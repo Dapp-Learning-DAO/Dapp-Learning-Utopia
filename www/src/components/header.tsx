@@ -19,6 +19,15 @@ const navs = [
     title: "About us",
     url: "./2021-11-09-intro-en/",
   },
+  {
+    title: "Contact us",
+    subs: [
+      { txt: "Twitter", url: "https://twitter.com/Dapp_Learning" },
+      { txt: "Youtube", url: "https://www.youtube.com/channel/UCdJKZVxO55N3n2BQYXMDAcQ" },
+      { txt: "Discord", url: "https://discord.gg/cRYNYXqPeR" },
+      { txt: "Mirror", url: "https://mirror.xyz/0x0C3c4bB7554Ea7E891B604715F84C5B55EFc017d" },
+    ],
+  },
 ];
 
 const Header = () => {

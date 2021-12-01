@@ -66,6 +66,10 @@ const Layout = ({ children, className = ``, thought = false }: LayoutProps) => {
           Twitter
         </Themed.a>
         .{` `}
+        <Themed.a target="_blank" href="https://www.youtube.com/channel/UCdJKZVxO55N3n2BQYXMDAcQ">
+          Youtube
+        </Themed.a>
+        .{` `}
         <Themed.a target="_blank" href="https://discord.gg/cRYNYXqPeR">
           Discord
         </Themed.a>

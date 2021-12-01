@@ -50,7 +50,7 @@ const Themes = () => {
           <Curved sx={{ position: `absolute`, bottom: `-1px`, left: 0, right: 0 }} />
         </div>
         <div sx={{ backgroundColor: `backgroundThemes` }}>
-          <Listing list={themes.filter(item => /(Dapp-Learning)|(Encryption courses Translation)|(WaterMargin)/.test(item.title))} />
+          <Listing list={themes.filter(item => /(Dapp-Learning)|(Encryption courses Translation)|(WaterMargin)|(Sharing Meetups)/.test(item.title))} />
         </div>
         <Curved sx={{ transform: `matrix(1, 0, 0, -1, 0, 0)`, position: `relative`, top: `-1px` }} />
       </section>
@@ -92,6 +92,7 @@ const ListQuery = graphql`
     allThemes {
       nodes {
         title
+        category
         url
         preview
         description

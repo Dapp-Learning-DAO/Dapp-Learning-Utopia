@@ -1,5 +1,5 @@
 - title: "Dapp-Learning"
-  catetory: "Tutorial"
+  category: "Tutorial"
   url: "https://github.com/rebase-network/Dapp-Learning"
   preview: "https://github.com/rebase-network/Dapp-Learning"
   description: "We are designed for developers with basic skills to step into blockchain DAPP development, where they can get close to DeFi, NFT, DAO, CRYPTO projects."
@@ -18,7 +18,7 @@
       yOffset: ["-60px"]
       opacity: 1
 - title: "Encryption courses Translation"
-  catetory: "Tutorial"
+  category: "Tutorial"
   url: "https://mirror.xyz/0x0C3c4bB7554Ea7E891B604715F84C5B55EFc017d"
   preview: "https://mirror.xyz/0x0C3c4bB7554Ea7E891B604715F84C5B55EFc017d"
   description: "We will compile some crypto courses from top universities abroad and the Ethereum community to help developers systematically understand blockchain and cryptocurrencies."
@@ -37,7 +37,7 @@
       yOffset: ["-60px"]
       opacity: 1
 - title: "WaterMargin"
-  catetory: "Products"
+  category: "Products"
   url: "https://github.com/Dapp-Learning-DAO/Dapp-Learning-WaterMargin"
   preview: "https://github.com/Dapp-Learning-DAO/Dapp-Learning-WaterMargin"
   description: "The legend of 105 men and 3 women."
@@ -54,4 +54,29 @@
       size: ["50px", "100px"]
       xOffset: ["140px"]
       yOffset: ["-40px", "-70px"]
+      opacity: 1
+- title: "Sharing Meetups"
+  category: "video"
+  url: "https://www.youtube.com/embed/ypASWR5b9zA"
+  preview: "https://www.youtube.com/embed/ypASWR5b9zA"
+  description: "The weekly sharing meetups will be recorded and uploaded to the Youtube."
+  image: "https://www.youtube.com/embed/ypASWR5b9zA"
+  shapes:
+    - type: "circle"
+      color: "red"
+      size: ["100px", "175px"]
+      xOffset: ["-60px", "-90px"]
+      yOffset: ["100px", "200px", "180px", "230px"]
+      opacity: 1
+    - type: "donut"
+      color: "teal"
+      size: ["80px", "150px"]
+      xOffset: ["-30px", "-70px"]
+      yOffset: ["-50px", "-50px", "-50px"]
+      opacity: 1
+    - type: "circle"
+      color: "yellow"
+      size: ["100px", "135px"]
+      xOffset: ["300px", "600px", "280px", "400px"]
+      yOffset: ["-40px", "-60px"]
       opacity: 1
