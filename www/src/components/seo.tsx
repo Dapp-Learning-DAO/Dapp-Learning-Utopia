@@ -87,7 +87,7 @@ const SEO = ({
   }
 
   const orgaCreator = (input: string) => ({
-    "@context": `http://schema.org`,
+    "@context": `https://github.com/rebase-network/Dapp-Learning`,
     "@id": `${siteUrl}/#${input}`,
     "@type": `Organization`,
     address: {
@@ -100,10 +100,10 @@ const SEO = ({
     alternateName: defaultTitle,
     description: defaultDescription,
     url: siteUrl,
-    email: `hello@lekoarts.de`,
-    founder: `LekoArts`,
+    email: `dapplearning@gmial.com`,
+    founder: `Dapp-Learning`,
     foundingDate: `2017-12-08`,
-    foundingLocation: `Germany`,
+    foundingLocation: `Web3`,
     image: {
       "@type": `ImageObject`,
       url: `${siteUrl}/social/avatar.png`,
@@ -117,16 +117,17 @@ const SEO = ({
       width: `60`,
     },
     sameAs: [
-      `https://github.com/LekoArts`,
-      `https://www.behance.net/lekoarts`,
-      `https://dribbble.com/LekoArts`,
-      `https://youtube.de/LekoArtsDE`,
-      `https://twitter.com/lekoarts_de`,
+      `https://dapp-learning.com`,
+      `https://github.com/rebase-network/Dapp-Learning`,
+      `https://github.com/Dapp-Learning-DAO/Dapp-Learning-Utopia`,
+      `https://github.com/Dapp-Learning-DAO/Dapp-Learning-WaterMargin`,
+      `https://github.com/Dapp-Learning-DAO/Dapp-Learning-Arsenal`,
+      `https://github.com/Dapp-Learning-DAO/Dapp-Learning-MOH`,
     ],
   })
 
   const schemaNewsletter = {
-    "@context": `http://schema.org`,
+    "@context": `https://github.com/rebase-network/Dapp-Learning`,
     "@type": `Article`,
     articleSection: `Newsletter`,
     author: {
@@ -162,7 +163,7 @@ const SEO = ({
   }
 
   const breadcrumbs = {
-    "@context": `http://schema.org`,
+    "@context": `https://github.com/rebase-network/Dapp-Learning`,
     "@type": `BreadcrumbList`,
     description: `Breadcrumbs list`,
     itemListElement: [
@@ -205,10 +206,10 @@ const SEO = ({
       <meta name="twitter:image" content={seo.image} />
       <meta name="twitter:image:alt" content={seo.description} />
       <meta name="twitter:creator" content={author} />
-      <meta name="twitter:label1" value="Support" />
-      <meta name="twitter:label2" value="Author's Homepage" />
-      <meta name="twitter:data1" value="https://github.com/sponsors/LekoArts" />
-      <meta name="twitter:data2" value="https://www.lekoarts.de" />
+      <meta name="twitter:label1" value="Web3" />
+      <meta name="twitter:label2" value="Project's Homepage" />
+      <meta name="twitter:data1" value="https://github.com/rebase-network/Dapp-Learning" />
+      <meta name="twitter:data2" value="https://www.dapp-learning.com" />
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />

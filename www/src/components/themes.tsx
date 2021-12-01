@@ -45,16 +45,16 @@ const Themes = () => {
               color: isStrange ? `#000114` : `light`,
             }}
           >
-            Tutorial
+            Products
           </h2>
           <Curved sx={{ position: `absolute`, bottom: `-1px`, left: 0, right: 0 }} />
         </div>
         <div sx={{ backgroundColor: `backgroundThemes` }}>
-          <Listing list={themes.filter(item => /(Basic Task)|(Advanced Task)/.test(item.title))} />
+          <Listing list={themes.filter(item => /(Dapp-Learning)|(Encryption courses Translation)|(WaterMargin)/.test(item.title))} />
         </div>
-        {/* <Curved sx={{ transform: `matrix(1, 0, 0, -1, 0, 0)`, position: `relative`, top: `-1px` }} /> */}
+        <Curved sx={{ transform: `matrix(1, 0, 0, -1, 0, 0)`, position: `relative`, top: `-1px` }} />
       </section>
-      <section data-name="Products">
+      {/* <section data-name="Products">
         <div sx={{ position: `relative`, backgroundColor: `backgroundThemes` }}>
           <h2
             sx={{
@@ -68,10 +68,10 @@ const Themes = () => {
           <Curved sx={{ position: `absolute`, bottom: `-1px`, left: 0, right: 0 }} />
         </div>
         <div sx={{ backgroundColor: `backgroundThemes` }}>
-          <Listing list={themes.filter(item => /(MOH)/.test(item.title))} />
+          <Listing list={themes.filter(item => /(WaterMargin)/.test(item.title))} />
         </div>
         <Curved sx={{ transform: `matrix(1, 0, 0, -1, 0, 0)`, position: `relative`, top: `-1px` }} />
-      </section>
+      </section> */}
       <p sx={{ mt: 6, fontSize: [1, 2, 2, 3], textAlign: `center` }}>
         <span sx={{ fontWeight: `bold` }}>More products are coming soon ...</span>{" "}
         {/* <br /> In the meantime you can have a look at our already existing{` `}

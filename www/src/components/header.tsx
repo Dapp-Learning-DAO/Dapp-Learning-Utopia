@@ -8,17 +8,11 @@ import NavCell from "./navCell";
 const modes = [`light`, `dark`];
 const navs = [
   {
-    title: "Tutorial",
-    subs: [
-      { txt: "basic task", url: "" },
-      { txt: "defi", url: "" },
-      { txt: "dao", url: "" },
-    ],
-  },
-  {
     title: "Products",
     subs: [
-      { txt: "basic task", url: "" },
+      { txt: "Dapp-Learning", url: "https://github.com/rebase-network/Dapp-Learning" },
+      { txt: "Encryption courses Translation", url: "https://mirror.xyz/0x0C3c4bB7554Ea7E891B604715F84C5B55EFc017d" },
+      { txt: "WaterMargin", url: "https://github.com/rebase-network/Dapp-Learning-WaterMargin" },
     ],
   },
   {
@@ -73,7 +67,7 @@ const Header = () => {
               >
                 Dapp-Learning
               </Box>
-              <Box sx={{ color: `dark` }}>by Dapp-Learning-DAO</Box>
+              <Box sx={{ color: `dark` }}>by Dapp-Learning</Box>
             </Flex>
           </Flex>
           <Flex style={{ flex: 1 }}></Flex>
