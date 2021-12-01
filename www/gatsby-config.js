@@ -13,7 +13,7 @@ module.exports = {
     description: `designed for developers with basic skills to step into blockchain DAPP development, where they can get close to DeFi, NFT, DAO, CRYPTO projects.`,
     headline: `designed for developers with basic skills to step into blockchain DAPP development.`,
     language: `en`,
-    image: `/banner.png`,
+    image: `/data/dapp-learning-cover.png`,
     author: `@Dapp-Learning`,
   },
   flags: {

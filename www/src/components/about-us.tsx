@@ -102,9 +102,9 @@ const AboutUs = () => {
       />
       <Logo
         sx={{
-          width: [70, 70, 90],
-          height: [70, 70, 90],
-          top: `112px`,
+          width: [70, 70, 75],
+          height: [70, 70, 75],
+          top: `114px`,
           right: [`40px`, `40px`, `240px`],
           position: `absolute`,
           color: `white`,

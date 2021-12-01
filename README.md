@@ -1,3 +1,3 @@
 # Dapp-Learning-Utopia
 
-the entrance for Dapp-Learning
+The entrance for Dapp-Learning
