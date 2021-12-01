@@ -25,13 +25,13 @@
   image: "./translation-icon.png"
   shapes:
     - type: "circle"
-      color: "orange"
+      color: "blue"
       size: ["120px", "220px"]
       xOffset: ["-20px"]
       yOffset: ["100px", "180px"]
       opacity: 1
     - type: "circle"
-      color: "gray"
+      color: "green"
       size: ["50px", "100px"]
       xOffset: ["-40px"]
       yOffset: ["-60px"]
@@ -44,13 +44,13 @@
   image: "./watermargin.png"
   shapes:
     - type: "donut"
-      color: "blue"
+      color: "gray"
       size: ["120px", "220px"]
       xOffset: ["-70px"]
       yOffset: ["100px", "180px"]
       opacity: 1
     - type: "circle"
-      color: "purple"
+      color: "black"
       size: ["50px", "100px"]
       xOffset: ["140px"]
       yOffset: ["-40px", "-70px"]
