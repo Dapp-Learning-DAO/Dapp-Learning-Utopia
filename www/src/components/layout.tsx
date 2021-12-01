@@ -59,18 +59,22 @@ const Layout = ({ children, className = ``, thought = false }: LayoutProps) => {
       </Box>
       <Box as="footer" variant="layout.footer">
         &copy; {new Date().getFullYear()} by{` `}
-        <Themed.a href="https://Dapp-Learning.com">Dapp-Learning</Themed.a>. All rights
+        <Themed.a target="_blank" href="https://Dapp-Learning.com">Dapp-Learning</Themed.a>. All rights
         reserved.
         {` `}
-        {/* <Themed.a rel="nofollow" href="https://www.lekoarts.de/legal-notice">
-          Legal Notice
+        <Themed.a target="_blank" href="https://twitter.com/Dapp_Learning">
+          Twitter
         </Themed.a>
         .{` `}
-        <Themed.a rel="nofollow" href="https://www.lekoarts.de/privacy-policy">
-          Privacy Policy
-        </Themed.a> */}
+        <Themed.a target="_blank" href="https://discord.gg/cRYNYXqPeR">
+          Discord
+        </Themed.a>
+        .{` `}
+        <Themed.a target="_blank" href="https://mirror.xyz/0x0C3c4bB7554Ea7E891B604715F84C5B55EFc017d">
+          Mirror
+        </Themed.a>
         .<br />
-        This tutorial is open source on{` `}
+        Our tutorial is open source on{` `}
         <Themed.a href="https://github.com/rebase-network/Dapp-Learning">GitHub</Themed.a>.
       </Box>
     </>

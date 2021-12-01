@@ -49,7 +49,7 @@ export default function Model(props: JSX.IntrinsicElements["group"]) {
     <group ref={group} {...props} dispose={null}>
       <group position={[0.21, 8.75, 59.69]}>
         <mesh material={materials.Gray} geometry={nodes.Block_Above.geometry} position={[-0.28, 0.23, 0.6]} />
-        <mesh material={materials.Gatsby} geometry={nodes.Logos.geometry} position={[0.28, 5.76, -0.6]} />
+        {/* <mesh material={materials.Gatsby} geometry={nodes.Logos.geometry} position={[0.28, 5.76, -0.6]} /> */}
         <mesh material={materials.Plurble} geometry={nodes.base.geometry} position={[-0.05, -5.76, 0.01]} />
       </group>
       <group position={[-59.45, 4.97, 0.07]}>
@@ -91,7 +91,7 @@ export default function Model(props: JSX.IntrinsicElements["group"]) {
           </group>
           <mesh material={materials.Plurble} geometry={nodes.Belt_1.geometry} position={[-1.72, -3.07, 0.84]} />
         </group>
-        <mesh material={materials.Gatsby} geometry={nodes.Logo.geometry} position={[-30.29, 22.65, 3.11]} />
+        {/* <mesh material={materials.Gatsby} geometry={nodes.Logo.geometry} position={[-30.29, 22.65, 3.11]} /> */}
         <mesh material={materials.Gray} geometry={nodes.Block.geometry} position={[-31.25, -12.06, 1.56]} />
       </group>
       <mesh material={materials.Gray} geometry={nodes.Tubes.geometry} position={[-23.4, 3.04, 0.36]} />

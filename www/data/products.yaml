@@ -1,21 +1,4 @@
-- title: "MOH"
-  url: "https://github.com/rebase-network/Dapp-Learning-MOH"
-  preview: "https://github.com/rebase-network/Dapp-Learning-MOH"
-  description: "Dapp-Learning-MOH 项目旨在提供发放 Dapp-Learning 的荣誉勋章的功能模版, 社区开发者可以根据此模版进行修改升级, 以实现符合自身业务的功能需求."
-  image: "./cara.jpg"
-  shapes:
-    - type: "donut"
-      color: "blue"
-      size: ["120px", "220px"]
-      xOffset: ["-70px"]
-      yOffset: ["100px", "180px"]
-      opacity: 1
-    - type: "circle"
-      color: "purple"
-      size: ["50px", "100px"]
-      xOffset: ["140px"]
-      yOffset: ["-40px", "-70px"]
-      opacity: 1
+
 # - title: "Specimens"
 #   url: "https://github.com/LekoArts/gatsby-starter-specimens"
 #   preview: "https://specimens.lekoarts.de"
