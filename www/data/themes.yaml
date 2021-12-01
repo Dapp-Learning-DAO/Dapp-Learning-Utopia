@@ -38,8 +38,8 @@
       opacity: 1
 - title: "WaterMargin"
   catetory: "Products"
-  url: "https://github.com/rebase-network/Dapp-Learning-WaterMargin"
-  preview: "https://github.com/rebase-network/Dapp-Learning-WaterMargin"
+  url: "https://github.com/Dapp-Learning-DAO/Dapp-Learning-WaterMargin"
+  preview: "https://github.com/Dapp-Learning-DAO/Dapp-Learning-WaterMargin"
   description: "The legend of 105 men and 3 women."
   image: "./watermargin.png"
   shapes:
