@@ -3,7 +3,7 @@
   url: "https://github.com/rebase-network/Dapp-Learning"
   preview: "https://github.com/rebase-network/Dapp-Learning"
   description: "We are designed for developers with basic skills to step into blockchain DAPP development, where they can get close to DeFi, NFT, DAO, CRYPTO projects."
-  image: "./emma.png"
+  image: "./dapp-learning-cover.png"
   shapes:
     - type: "circle"
       color: "green"
@@ -22,16 +22,16 @@
   url: "https://mirror.xyz/0x0C3c4bB7554Ea7E891B604715F84C5B55EFc017d"
   preview: "https://mirror.xyz/0x0C3c4bB7554Ea7E891B604715F84C5B55EFc017d"
   description: "We will compile some crypto courses from top universities abroad and the Ethereum community to help developers systematically understand blockchain and cryptocurrencies."
-  image: "./status-dashboard.png"
+  image: "./translation-icon.png"
   shapes:
     - type: "circle"
-      color: "orange"
+      color: "blue"
       size: ["120px", "220px"]
       xOffset: ["-20px"]
       yOffset: ["100px", "180px"]
       opacity: 1
     - type: "circle"
-      color: "gray"
+      color: "green"
       size: ["50px", "100px"]
       xOffset: ["-40px"]
       yOffset: ["-60px"]
@@ -41,16 +41,16 @@
   url: "https://github.com/rebase-network/Dapp-Learning-WaterMargin"
   preview: "https://github.com/rebase-network/Dapp-Learning-WaterMargin"
   description: "The legend of 105 men and 3 women."
-  image: "./cara.jpg"
+  image: "./watermargin.png"
   shapes:
     - type: "donut"
-      color: "blue"
+      color: "gray"
       size: ["120px", "220px"]
       xOffset: ["-70px"]
       yOffset: ["100px", "180px"]
       opacity: 1
     - type: "circle"
-      color: "purple"
+      color: "black"
       size: ["50px", "100px"]
       xOffset: ["140px"]
       yOffset: ["-40px", "-70px"]
