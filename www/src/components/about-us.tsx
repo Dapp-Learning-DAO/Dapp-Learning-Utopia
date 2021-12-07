@@ -17,12 +17,12 @@ const AboutUs = () => {
           <Themed.h1 as="h2">About Us</Themed.h1>
           <Themed.p>Hi 👋</Themed.p>
           <Themed.p>
-            We are designed for developers with basic skills to step into
-            blockchain DAPP development, where they can get close to DeFi, NFT,
-            DAO, CRYPTO projects. We hope we could not only give junior
-            developers an executable and simplest blockchain DAPP learning
-            roadmap, but also present advanced developers with a platform for
-            communication and cooperation.
+            We are designed for junior developers to step into blockchain DAPP
+            development. Here, they can get close to DeFi, NFT, DAO, CRYPTO
+            projects. We hope we could not only give junior developers an
+            executable and simplest blockchain DAPP learning roadmap, but also
+            present advanced developers with a platform for communication and
+            cooperation.
           </Themed.p>
           <Themed.p>
             We, incubated from{" "}
@@ -76,7 +76,9 @@ const AboutUs = () => {
             . Welcome to join us if you share the same value.
           </Themed.p>
           <Themed.h3>
-            <Themed.a href="./2021-11-09-intro-en/">👉 Click here to check more </Themed.a>
+            <Themed.a href="./2021-11-09-intro-en/">
+              👉 Click here to check more{" "}
+            </Themed.a>
           </Themed.h3>
         </div>
       </Container>
@@ -102,9 +104,9 @@ const AboutUs = () => {
       />
       <Logo
         sx={{
-          width: [70, 70, 90],
-          height: [70, 70, 90],
-          top: `112px`,
+          width: [70, 70, 75],
+          height: [70, 70, 75],
+          top: `114px`,
           right: [`40px`, `40px`, `240px`],
           position: `absolute`,
           color: `white`,
@@ -162,11 +164,11 @@ const AboutUs = () => {
             Do you want to support us?
           </h3>
           <Themed.p sx={{ textShadow: `0 1px 1px rgba(0, 0, 0, 0.2)` }}>
-            Open source projects are not easy to maintain so we'd love to see
-            you help us thrive through donations. Dapp Learning team adapts the
-            DAO philosophy to manage the project; your generosity would be
-            vested to our community members as funds and/or NFTs based on their
-            quality of contribution.
+            Open source projects are not easy to maintain, so it will be sweet
+            of you to help us thrive through kind donations. Dapp Learning team
+            adapts the DAO philosophy to manage the project, and your generosity
+            will be vested to our community members as funds and/or NFTs based
+            on their contribution content.
           </Themed.p>
           <Flex
             sx={{

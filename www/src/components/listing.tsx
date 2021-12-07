@@ -3,9 +3,11 @@ import { Flex, Box, jsx, Themed, Container, useColorMode } from "theme-ui";
 import { GatsbyImage as Img, IGatsbyImageData } from "gatsby-plugin-image";
 import { Circle, Donut } from "./shapes";
 import iconExternal from "../icons/icon-external-window.svg";
+import Video from "./video";
 
 export type nodeType = {
   title: string;
+  category?: string;
   url: string;
   preview: string;
   description: string;
@@ -131,53 +133,83 @@ const Listing = (props: { list: nodeType[] }) => {
                     return null;
                 }
               })}
-              <a
-                href={theme.preview}
-                rel="noopener noreferrer"
-                target="_blank"
-                aria-label={`Visit a preview of theme ${theme.title}`}
-                sx={{
-                  ...cardStyle,
-                  "[data-name='card-overlay']": {
-                    position: `absolute`,
-                    borderRadius: `lg`,
-                    top: 0,
-                    right: 0,
-                    left: 0,
-                    bottom: 0,
-                    zIndex: 10,
-                    backgroundColor: `rgba(90, 103, 216, 0.9)`,
-                    color: `white`,
-                    fontFamily: `body`,
-                    fontSize: 4,
-                    display: `flex`,
-                    justifyContent: `center`,
-                    alignItems: `center`,
-                    transition: `all 0.3s ease-in-out`,
-                    opacity: 0,
-                    ...overlayStyles,
-                  },
-                }}
-              >
-                <div data-name="card-overlay" aria-hidden>
-                  <div sx={{ display: `flex`, alignItems: `center` }}>
-                    <img
-                      width="40"
-                      height="40"
-                      sx={{ mr: 3 }}
-                      alt=""
-                      src={iconExternal}
-                    />{" "}
-                    Preview
+              {theme.category === "video" ? (
+                <Box
+                  aria-label={`Visit a preview of theme ${theme.title}`}
+                  sx={{
+                    ...cardStyle,
+                    "[data-name='card-overlay']": {
+                      position: `absolute`,
+                      borderRadius: `lg`,
+                      top: 0,
+                      right: 0,
+                      left: 0,
+                      bottom: 0,
+                      zIndex: 10,
+                      backgroundColor: `rgba(90, 103, 216, 0.9)`,
+                      color: `white`,
+                      fontFamily: `body`,
+                      fontSize: 4,
+                      display: `flex`,
+                      justifyContent: `center`,
+                      alignItems: `center`,
+                      transition: `all 0.3s ease-in-out`,
+                      opacity: 0,
+                      ...overlayStyles,
+                    },
+                  }}
+                >
+                  {theme.url && <Video src={theme.preview} />}
+                </Box>
+              ) : (
+                <a
+                  href={theme.preview}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  aria-label={`Visit a preview of theme ${theme.title}`}
+                  sx={{
+                    ...cardStyle,
+                    "[data-name='card-overlay']": {
+                      position: `absolute`,
+                      borderRadius: `lg`,
+                      top: 0,
+                      right: 0,
+                      left: 0,
+                      bottom: 0,
+                      zIndex: 10,
+                      backgroundColor: `rgba(90, 103, 216, 0.9)`,
+                      color: `white`,
+                      fontFamily: `body`,
+                      fontSize: 4,
+                      display: `flex`,
+                      justifyContent: `center`,
+                      alignItems: `center`,
+                      transition: `all 0.3s ease-in-out`,
+                      opacity: 0,
+                      ...overlayStyles,
+                    },
+                  }}
+                >
+                  <div data-name="card-overlay" aria-hidden>
+                    <div sx={{ display: `flex`, alignItems: `center` }}>
+                      <img
+                        width="40"
+                        height="40"
+                        sx={{ mr: 3 }}
+                        alt=""
+                        src={iconExternal}
+                      />{" "}
+                      Preview
+                    </div>
                   </div>
-                </div>
-                {theme?.image?.childImageSharp?.gatsbyImageData && (
-                  <Img
-                    image={theme.image.childImageSharp.gatsbyImageData}
-                    alt=""
-                  />
-                )}
-              </a>
+                  {theme?.image?.childImageSharp?.gatsbyImageData && (
+                    <Img
+                      image={theme.image.childImageSharp.gatsbyImageData}
+                      alt=""
+                    />
+                  )}
+                </a>
+              )}
             </div>
             <Flex
               sx={{

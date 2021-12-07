@@ -66,12 +66,24 @@ const Layout = ({ children, className = ``, thought = false }: LayoutProps) => {
           Twitter
         </Themed.a>
         .{` `}
+        <Themed.a target="_blank" href="https://www.youtube.com/channel/UCdJKZVxO55N3n2BQYXMDAcQ">
+          Youtube
+        </Themed.a>
+        .{` `}
         <Themed.a target="_blank" href="https://discord.gg/cRYNYXqPeR">
           Discord
         </Themed.a>
         .{` `}
+        <Themed.a target="_blank" href="https://spiny-satin-068.notion.site/Dapp-Learning-Homepage-79545c9d4ffe4e77a8cbc1c55e77b551">
+          Notion
+        </Themed.a>
+        .{` `}
         <Themed.a target="_blank" href="https://mirror.xyz/0x0C3c4bB7554Ea7E891B604715F84C5B55EFc017d">
           Mirror
+        </Themed.a>
+        .{` `}
+        <Themed.a target="_blank" href="https://linktr.ee/dapplearning">
+          Linktr
         </Themed.a>
         .<br />
         Our tutorial is open source on{` `}
