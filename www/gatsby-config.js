@@ -9,7 +9,7 @@ const intro = "We are designed for junior developers to step into blockchain DAP
 module.exports = {
   siteMetadata: {
     title: `Dapp-Learning`,
-    titleAlt: `Free & Open Source Dapp-Learning`,
+    titleAlt: `Dapp-Learning free & open source courses of DeFi, NFT, DAO, CRYPTO projects`,
     siteUrl: `https://dapp-learning.com`,
     description: intro,
     headline: intro,

@@ -12,7 +12,7 @@ const navs = [
     subs: [
       { txt: "Dapp-Learning", url: "https://github.com/rebase-network/Dapp-Learning" },
       { txt: "Encryption courses Translation", url: "https://mirror.xyz/0x0C3c4bB7554Ea7E891B604715F84C5B55EFc017d" },
-      { txt: "WaterMargin", url: "https://github.com/Dapp-Learning-DAO/Dapp-Learning-WaterMargin" },
+      { txt: "WaterMargin", url: "http://watermargin.dapp-learning.com" },
     ],
   },
   {
@@ -25,6 +25,7 @@ const navs = [
       { txt: "Twitter", url: "https://twitter.com/Dapp_Learning" },
       { txt: "Youtube", url: "https://www.youtube.com/channel/UCdJKZVxO55N3n2BQYXMDAcQ" },
       { txt: "Discord", url: "https://discord.gg/cRYNYXqPeR" },
+      { txt: "Notion", url: "https://spiny-satin-068.notion.site/Dapp-Learning-Homepage-79545c9d4ffe4e77a8cbc1c55e77b551" },
       { txt: "Mirror", url: "https://mirror.xyz/0x0C3c4bB7554Ea7E891B604715F84C5B55EFc017d" },
     ],
   },

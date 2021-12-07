@@ -17,7 +17,7 @@
       xOffset: ["50px"]
       yOffset: ["-60px"]
       opacity: 1
-- title: "Encryption courses Translation"
+- title: "Crypto courses Translation"
   category: "Tutorial"
   url: "https://mirror.xyz/0x0C3c4bB7554Ea7E891B604715F84C5B55EFc017d"
   preview: "https://mirror.xyz/0x0C3c4bB7554Ea7E891B604715F84C5B55EFc017d"
@@ -38,8 +38,8 @@
       opacity: 1
 - title: "WaterMargin"
   category: "Products"
-  url: "https://github.com/Dapp-Learning-DAO/Dapp-Learning-WaterMargin"
-  preview: "https://github.com/Dapp-Learning-DAO/Dapp-Learning-WaterMargin"
+  url: "http://watermargin.dapp-learning.com/"
+  preview: "http://watermargin.dapp-learning.com/"
   description: "The legend of 105 men and 3 women."
   image: "./watermargin.png"
   shapes:
@@ -60,7 +60,7 @@
   url: "https://www.youtube.com/channel/UCdJKZVxO55N3n2BQYXMDAcQ"
   preview: "https://www.youtube.com/embed/ypASWR5b9zA"
   description: "The weekly sharing meetup minutes will be uploaded to the Youtube."
-  image: "https://www.youtube.com/channel/UCdJKZVxO55N3n2BQYXMDAcQ"
+  image: "./dapp-learning-cover.png"
   shapes:
     - type: "circle"
       color: "red"
